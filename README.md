@@ -11,7 +11,7 @@ This script processes client data and financial data using PySpark, a Python lib
 - Outputs the processed data to a Parquet file in the client_data/ directory.
 
 ## Usage
-To run the script, execute the following command:
+To run the script, do the following:
 
 - bash : 
 spark-submit data_processing.py <financial_file_path> <country1,country2>
