@@ -10,11 +10,4 @@ This script processes client data and financial data using PySpark, a Python lib
 - Renames columns for easier readability.
 - Outputs the processed data to a Parquet file in the client_data/ directory.
 
-## Usage
-To run the script, do the following:
 
-- bash : 
-spark-submit data_processing.py <financial_file_path> <country1,country2>
-
-<financial_file_path> : the path to the financial data file (dataset_two.csv) 
-<country1,country2> : comma-separated list of countries (example : "United Kingdom,Netherlands")
