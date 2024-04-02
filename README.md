@@ -13,7 +13,7 @@ This script processes client data and financial data using PySpark, a Python lib
 ## Usage
 To run the script, execute the following command:
 
-bash
+- bash : 
 spark-submit data_processing.py <financial_file_path> <country1,country2>
 
 <financial_file_path> : the path to the financial data file (dataset_two.csv) 
